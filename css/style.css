@@ -28,4 +28,16 @@ body {
     cursor: pointer;
     width: 60px;
     height: 50px;
+    border-radius: 20px;
+    background: transparent;
+    transition: all .25s ease;
+}
+
+.navbar button:active:not(.plus) {
+    transform: scale(1.2);
+}
+
+.navbar button i {
+    font-size: 1.5rem;
+    pointer-events: none;
 }
