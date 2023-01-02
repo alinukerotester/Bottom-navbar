@@ -37,6 +37,10 @@ body {
     transform: scale(1.2);
 }
 
+.navbar button.active {
+    color: #e84c4f;
+}
+
 .navbar button i {
     font-size: 1.5rem;
     pointer-events: none;
