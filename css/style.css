@@ -45,3 +45,25 @@ body {
     font-size: 1.5rem;
     pointer-events: none;
 }
+
+.navbar button.plus {
+    height: 60px;
+    color: #fff;
+    background: #e84c4f;
+    border-radius: 25px;
+    margin-top: -50px;
+    box-shadow: 0 10px 20px 0 #e84c4f66;
+}
+
+.navbar button.plus:hover {
+    transform: translateY(-4px);
+}
+
+.navbar .effect {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    border-radius: 18px;
+    background: #e84c4f26;
+    opacity: 0;
+}
