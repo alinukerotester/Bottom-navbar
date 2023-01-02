@@ -8,4 +8,14 @@ body {
     height: 100vh;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background: #f4f7f8;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 0;
 }
